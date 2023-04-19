@@ -1,4 +1,6 @@
 body {
+  background-color: grey;
+  padding: 50px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +12,34 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input{
+  width: 100%;
+  font-size: 1.3rem;
+  border: 5px solid rgb(255, 242, 0);
+}
+
+.cardGrid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gifCard{
+  align-content: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  overflow: hidden;
+}
+
+.gifCard p{
+  padding: 10px;
+  text-align: center;
+}
+
+.gifCard img {
+  max-height: 150px;
 }
